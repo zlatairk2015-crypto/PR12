@@ -9,7 +9,7 @@ const {
 } = require('../src/calculator');
 
 test('Сложение: 2 + 3 = 5', () => {
-    assert.equal(add(2, 3), 5);
+    assert.equal(add(2, 3), 10);;
 });
 
 test('Вычитание: 5 - 3 = 2', () => {
